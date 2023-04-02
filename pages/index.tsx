@@ -1,8 +1,14 @@
+import PrivacyComponent from "./component/PrivacyComponent";
 
-export default function Home() {
+function App() {
+
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="App">
+    < div className="home">
+<PrivacyComponent />
+</ div>
+    </div>
   )
 }
+
+export default App
